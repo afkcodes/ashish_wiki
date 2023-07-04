@@ -10,7 +10,7 @@ export const useServerTimeLoader = routeLoader$(() => {
 export default component$(() => {
   return (
     <>
-      <main class='bg-black h-screen flex justify-center items-center'>
+      <main class='bg-black_x-900 text-black_x-100 min-h-screen px-40 py-20 '>
         <Slot />
       </main>
     </>

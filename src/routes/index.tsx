@@ -1,12 +1,11 @@
 import { component$ } from '@builder.io/qwik';
 import type { DocumentHead } from '@builder.io/qwik-city';
+import Header from '~/components/Heading/Header';
 
 export default component$(() => {
   return (
     <>
-      <div>
-        <p class='text-xl text-white'>ashish.wiki</p>
-      </div>
+      <Header />
     </>
   );
 });
